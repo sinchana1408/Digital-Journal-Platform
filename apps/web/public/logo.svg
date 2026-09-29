@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" fill="none">
+  <defs>
+    <linearGradient id="luma-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8B5CF6" />
+      <stop offset="100%" stop-color="#6366F1" />
+    </linearGradient>
+    <linearGradient id="luma-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDBA74" />
+      <stop offset="100%" stop-color="#A78BFA" />
+    </linearGradient>
+  </defs>
+  <!-- Book silhouette -->
+  <rect x="6" y="8" width="36" height="32" rx="6" fill="url(#luma-grad)" />
+  <!-- Spine fold -->
+  <path d="M22 8 L22 40" stroke="#EDE9FE" stroke-width="2" stroke-linecap="round" stroke-dasharray="2 3" opacity="0.4" />
+  <!-- Inner journal page lines -->
+  <line x1="12" y1="18" x2="18" y2="18" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0.8" />
+  <line x1="12" y1="24" x2="18" y2="24" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0.8" />
+  <line x1="12" y1="30" x2="16" y2="30" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0.8" />
+  <!-- Radiance spark / quill star -->
+  <path d="M32 16 L34 22 L40 24 L34 26 L32 32 L30 26 L24 24 L30 22 Z" fill="url(#luma-glow)" />
+</svg>

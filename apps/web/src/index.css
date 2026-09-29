@@ -1,0 +1,139 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: #FAF8F5;
+    --surface: #FFFFFF;
+    --surface-elevated: #F4F1EA;
+    --border: #E8E3D9;
+    --border-subtle: #F0ECE4;
+    --foreground: #1E293B;
+    --foreground-muted: #64748B;
+    --foreground-subtle: #94A3B8;
+    --primary: #7C3AED;
+    --primary-foreground: #FFFFFF;
+  }
+
+  .dark {
+    --background: #0B0F19;
+    --surface: #131B2E;
+    --surface-elevated: #1C263F;
+    --border: #23304E;
+    --border-subtle: #192338;
+    --foreground: #F8FAFC;
+    --foreground-muted: #94A3B8;
+    --foreground-subtle: #64748B;
+    --primary: #8B5CF6;
+    --primary-foreground: #FFFFFF;
+  }
+
+  * {
+    border-color: var(--border);
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    color: var(--foreground);
+    background-color: var(--background);
+    transition: background-color 0.25s ease, color 0.25s ease;
+  }
+
+  /* Custom subtle scrollbars */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: rgba(148, 163, 184, 0.4);
+    border-radius: 9999px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(148, 163, 184, 0.6);
+  }
+}
+
+/* Editorial content typography styling for editor & reader */
+.editorial-prose {
+  line-height: 1.8;
+  font-size: 1.125rem;
+}
+
+.editorial-prose h1 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 1.25;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  font-family: 'Lora', Georgia, serif;
+}
+
+.editorial-prose h2 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  line-height: 1.35;
+  margin-top: 1.25rem;
+  margin-bottom: 0.5rem;
+  font-family: 'Lora', Georgia, serif;
+}
+
+.editorial-prose h3 {
+  font-size: 1.35rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.editorial-prose p {
+  margin-bottom: 1rem;
+}
+
+.editorial-prose blockquote {
+  border-left: 3px solid #8B5CF6;
+  padding-left: 1.25rem;
+  font-style: italic;
+  margin: 1.25rem 0;
+  color: var(--foreground-muted);
+  font-family: 'Lora', Georgia, serif;
+}
+
+.editorial-prose ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.editorial-prose ol {
+  list-style-type: decimal;
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.editorial-prose li {
+  margin-bottom: 0.25rem;
+}
+
+.editorial-prose hr {
+  margin: 2rem 0;
+  border-top: 1px solid var(--border);
+}
+
+/* Interactive subtle glassmorphism utilities */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.dark .glass-panel {
+  background: rgba(19, 27, 46, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
