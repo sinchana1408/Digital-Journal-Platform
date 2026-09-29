@@ -1,4 +1,4 @@
-# 📖 LumaJournal — Personal Digital Journal Platform
+#  LumaJournal — Personal Digital Journal Platform
 
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.7-blue?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=black)](https://react.dev/)
@@ -13,21 +13,21 @@
 
 ---
 
-## ✨ Features
+##  Features
 
-- ✍️ **Distraction-Free Journal Editor**: Rich text editing, auto-save status indicators, word count, reading time calculator, and instant drafts.
-- 🎭 **Daily Mood Tracking**: Visual mood picker (excellent, good, calm, neutral, low, anxious, sad, angry) paired with daily reflection notes.
-- 📊 **Mood Analytics & Insights**: Interactive charts powered by Recharts showing mood trends, weekly breakdown, and writing consistency streaks.
-- 📅 **Interactive Calendar View**: View past reflections by date with mood badge highlights and daily entries overview.
-- 🏷️ **Tagging & Filtering**: Organize thoughts with custom tags, quick search, pinned favorites, and archive management.
-- ⚡ **Real-Time Synchronization**: Instant multi-tab synchronization and live stats updates using Socket.IO.
-- 🌓 **Curated Theming**: Sleek dark and calm light modes with glassmorphic aesthetics and smooth micro-animations.
-- 🔒 **Secure Authentication**: Salted bcrypt password hashing, JWT authentication, and multi-tenant user data isolation.
-- 📥 **Data Portability**: Export your personal journal entries anytime as JSON or Markdown.
+-  **Distraction-Free Journal Editor**: Rich text editing, auto-save status indicators, word count, reading time calculator, and instant drafts.
+-  **Daily Mood Tracking**: Visual mood picker (excellent, good, calm, neutral, low, anxious, sad, angry) paired with daily reflection notes.
+-  **Mood Analytics & Insights**: Interactive charts powered by Recharts showing mood trends, weekly breakdown, and writing consistency streaks.
+-  **Interactive Calendar View**: View past reflections by date with mood badge highlights and daily entries overview.
+-  **Tagging & Filtering**: Organize thoughts with custom tags, quick search, pinned favorites, and archive management.
+-  **Real-Time Synchronization**: Instant multi-tab synchronization and live stats updates using Socket.IO.
+-  **Curated Theming**: Sleek dark and calm light modes with glassmorphic aesthetics and smooth micro-animations.
+-  **Secure Authentication**: Salted bcrypt password hashing, JWT authentication, and multi-tenant user data isolation.
+-  **Data Portability**: Export your personal journal entries anytime as JSON or Markdown.
 
 ---
 
-## 🏗️ Architecture & Tech Stack
+##  Architecture & Tech Stack
 
 LumaJournal is organized as a modular TypeScript monorepo:
 
@@ -54,7 +54,7 @@ lumajournal/
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Prerequisites
 - **Node.js**: `v18+` or `v20+` (tested on `v24`)
@@ -104,7 +104,7 @@ npm run db:seed
 
 ---
 
-## 💻 Available Commands
+##  Available Commands
 
 | Command | Description |
 |---|---|
@@ -119,7 +119,7 @@ npm run db:seed
 
 ---
 
-## 🧪 Testing
+##  Testing
 
 Run automated API test suite covering authentication, authorization, and CRUD operations:
 ```bash
@@ -128,7 +128,7 @@ npm test
 
 ---
 
-## 📚 Documentation
+##  Documentation
 
 For deeper details, consult the dedicated guides in the `/docs` folder:
 - [API Documentation](docs/API.md) — Comprehensive endpoints and request/response payloads
@@ -137,6 +137,6 @@ For deeper details, consult the dedicated guides in the `/docs` folder:
 
 ---
 
-## 📄 License
+##  License
 
 This project is licensed under the [MIT License](LICENSE).
